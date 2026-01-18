@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | GameZone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<header class="header">
+    <div class="logo">
+        <h1>🎮 GameZone</h1>
+    </div>
+
+    
+
+    <nav class="nav">
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+         
+            <li><a href="juegos.html">Juegos</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <button class="cart-btn" onclick="toggleCart()">
+        🛒 Carrito (<span>0</span>)
+    </button>
+
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+</header>
+
+<section class="contact-hero">
+    <h2>📩 Contáctanos</h2>
+    <p>¿Tienes dudas o sugerencias? Escríbenos</p>
+</section>
+
+
+<section class="contact">
+    <form class="contact-form" id="contact-form">
+        <label>Nombre</label>
+        <input type="text" placeholder="Tu nombre" required>
+
+        <label>Email</label>
+        <input type="email" placeholder="correo@email.com" required>
+
+        <label>Mensaje</label>
+        <textarea rows="5" placeholder="Escribe tu mensaje" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+    </form>
+
+    
+  <div class="contact-info">
+        <h3>📍 Información</h3>
+        <p>📧 Email: contacto@gamezone.com</p>
+        <p>📞 Teléfono: +505 8888-8888</p>
+        <p>🌍 Nicaragua</p>
+    </div>
+</section>
+  
+
+
+<footer>
+  <div style="text-align: center; padding: 20px; background-color: #222; color: #fff;">
+    <p><strong>GameZone</strong> &copy; 2026 — Tu tienda gamer de confianza</p>
+    <p>Contacto: +505 8478 3673 | Jinotepe, Nicaragua</p>
+    <p>Gerente : gamezone@ejemplo.com</p>
+        <p class="footer-copy">© 2026 GameZone - Todos los derechos reservados</p>
+  </div>
+
+
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
