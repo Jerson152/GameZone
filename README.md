@@ -1,6 +1,6 @@
 # GameZone 🎮
 
-GameZone es un panel moderno y accesible para tiendas de videojuegos, diseñado para mostrar productos, gestionar inventario y mejorar la experiencia del usuario.
+GameZone es un panel moderno y accesible para tiendas de videojuegos.
 
 ## 🚀 Características
 - Diseño responsivo para escritorio y móvil
